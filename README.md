@@ -23,3 +23,24 @@
     git log
     git log -10 # Show the most 10 log
 ```
+ - Remove the files
+```
+    git rm 'filename' # remove the git cache and instance
+```
+ - Rename the files
+```
+    git mv "filenamev1" "filenamev2"
+```
+ - Show the status
+```
+    git status
+    git status -s # show the simple version
+```
+ - Reset the directory
+```
+    git reset --hard # Restore the newest commit version
+```
+ - Restore one of the files
+```
+    git checkout master filename
+```
