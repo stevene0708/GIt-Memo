@@ -15,7 +15,6 @@
 ```
  - Commit change
 ```
-    git commit
     git commit -m "TEXT" # Add the memo and commit.
 ```
  - Check the log
@@ -43,4 +42,10 @@
  - Restore one of the files
 ```
     git checkout master filename
+```
+ - Push an existing repository
+```
+    git remote add origin github-repository-website
+    git branch -M main
+    git push -u origin main
 ```
