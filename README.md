@@ -1,5 +1,12 @@
 # Git-Memo
 
+## First time initial set(before you commit)
+ - Set the email and name
+ ```
+    git config --global user.email "you@example.com"
+    git config --global user.name "Your Name
+ ```
+
 ## Git Usual Commands
  - Make new git-dir
  ```
